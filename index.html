@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+
+		<title>A11y-OWDDM</title>
+
+		<link rel="stylesheet" href="dist/reset.css" />
+		<link rel="stylesheet" href="dist/reveal.css" />
+		<link rel="stylesheet" href="dist/theme/solarized.css" />
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" />
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>James McGrath</h1>
+					<h2 class="fragment">Lead Front End Engineer mamamia.com.au</h2>
+					<ul class="fragment" style="list-style: none; padding: 0; ">
+						<li>Github: jamcgrath</li>
+						<li>Codepen: jamcgrath</li>
+						<li>Twitter: @ameone</li>
+					</ul>
+
+				</section>
+				<section data-transition="fade-in">
+					<h2 class="fragment fade-in-then-semi-out">Accessibility</h2>
+					<h2 class="fragment">A11y</h2>
+					<span class="fragment">A-one-one-Y</span>
+					<span class="fragment">/ A-eleven-Y</span>
+					<span class="fragment">/ ally</span>
+				</section>
+				<section>
+					<ul>
+						<li>Who</li>
+						<li>What</li>
+						<li>Where</li>
+						<li>When</li>
+						<li>Why</li>
+						<li>How</li>
+					</ul>
+				</section>
+				<section data-transition="fade-in">
+					<h2>What is A11y</h2>
+					<p class="fragment">Dictionary: Easy to reach, use, understand</p>
+				</section>
+				<section data-transition="fade-in">
+					<figure>
+						<blockquote
+							cite="https://developer.mozilla.org/en-US/docs/Web/Accessibility"
+						>
+							<p>
+								Accessibility means developing content to be as accessible as
+								possible, no matter an individual's physical and cognitive
+								abilities and how they access the web.
+							</p>
+						</blockquote>
+						<figcaption>—MDN</figcaption>
+					</figure>
+				</section>
+				<section data-transition="fade-in">
+					<h2>Who is A11Y for?</h2>
+				</section>
+				<section data-transition="fade-in">
+					<div class="r-stack">
+						<ul class="fragment fade-out" data-fragment-index="3">
+							<li class="current-visible">Blind People?</li>
+							<li class="fragment" data-fragment-index="1">Deaf People?</li>
+							<li class="fragment" data-fragment-index="2">
+								People who live where the law mandates A11y?
+							</li>
+						</ul>
+							<p class="fragment r-fit-text" data-fragment-index="3">
+							A11Y is for everybody!
+						</p>
+				</section>
+				<section>
+					<h2>Why?</h2>
+					<p class="frament">A11Y benefits everyone</p>
+					<ul class="fragment">
+						<li>Physical Disabilities</li>
+						<li>Visual Disabilities</li>
+						<li>Auditory Disabilities</li>
+						<li>Cognitive Disabilities</li>
+						<li>Temporary Disabilities</li>
+					</ul>
+					<aside class="notes">
+						<p>physical = missing limbs, quadriplegia - paralyzed from neck down, arthritis, parkinsons</p>
+						<p>Visual = blind, reduced vision, color blindness</p>
+						<p>Auditory = deaf or profound hearing loss</p>
+						<p>Cognitive = Memory, ADHD, Difficulty with reading and communication understanding</p>
+						<p>Temporary = Broken limbs, Migraines, Pregnancy, Hangover</p>
+					</aside>
+				</section>
+				<section>
+					<h2>When should you add A11y</h2>
+					<p class="fragment">
+							From the very start.
+					</p>
+					<p class="fragment">It's never too late to do it.*</p>
+				</section>
+				<section data-transition="fade-in">
+					<div class="r-stack">
+						<p class="current-visible">
+							<span class="fragment fade-out" data-fragment-index="1"
+								>Developing and designing with A11Y in mind makes the web a place
+								where</span
+							>
+							<span class="fragment fade-out" data-fragment-index="2"
+								>anyone</span
+							>
+							<span class="fragment fade-out" data-fragment-index="1"
+								>regardless of location, situation, abilities, language, etc...
+								can interact with others to learn and share their knowledge and
+								experiences.</span
+							>
+						</p>
+						<p class="fragment r-fit-text" data-fragment-index="2">
+							Anyone should be able to use any website!
+						</p>
+					</div>
+				</section>
+				<section>
+					<h2>How?</h2>
+					<p class="fragment fade-out">Good question</p>
+					<ul>
+						<li class="fragment">Semantic HTML</li>
+						<li class="fragment">Use Aria roles, attributes, landmarks, etc...</li>
+						<li class="fragment">Testing with tools like AXE browser plugin</li>
+					</ul>
+					<aside class="notes">
+						talk about how there are patterns but it's not so simple sometimes.
+					</aside>
+				</section>
+				<section>
+					<h2>Where A11Y</h2>
+					<p class="fragment">
+					¯\_(ツ)_/¯
+					</p>
+				</section>
+				<section>
+					<h2>Links WHERE you can learn more</h2>
+					<ul class="r-fit-text">
+						<li>WCAG - https://www.w3.org/WAI/standards-guidelines/wcag/</li>
+						<li>WebAIM - https://webaim.org/</li>
+						<li>MDN - https://developer.mozilla.org/en-US/docs/Web/Accessibility</li>
+						<li>A11Y Project - https://www.a11yproject.com/</li>
+						<li>A11Y Styleguide - https://a11y-style-guide.com/style-guide/</li>
+						<li>Inclusive Components - https://inclusive-components.design/</li>
+						<li>Web Accessibilty by Google on Udacity</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+			});
+		</script>
+	</body>
+</html>
